@@ -1,0 +1,9 @@
+Build target: Qihoo 360T7 (MT7981)
+Source: https://github.com/padavanonly/immortalwrt-mt798x-6.6
+Branch: openwrt-24.10-6.6
+Gecoos source: https://github.com/laipeng668/luci-app-gecoosac
+Gecoos tag: V2.2.20251015
+Expected Gecoos ARM64 binary SHA256: 66ef7f030954216fcf503bd4586cc3e87ba68f986f9718afc1fd16d6cd924ff0
+Required DTS properties:
+  mediatek,nmbm;
+  mediatek,mtd-eeprom = <&factory 0x0>;

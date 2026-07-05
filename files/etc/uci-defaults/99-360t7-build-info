@@ -1,0 +1,5 @@
+#!/bin/sh
+uci -q set system.@system[0].hostname='360T7-AC'
+uci -q set system.@system[0].description='ImmortalWrt 24.10 / Linux 6.6 / MTK mtwifi / Gecoos AC'
+uci -q commit system
+exit 0
